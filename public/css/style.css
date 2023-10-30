@@ -1,0 +1,1050 @@
+body {
+    background-color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header css for layout.ejs */
+.custom_header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #051b37;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Navbar css for layout.ejs */
+.custom_nav {
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar selectable options css for layout.ejs */
+.custom_nav a {
+    color: white;
+    width: 120px;
+    height: 10px;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size:larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+/* Navbar selectable options hover css for layout.ejs */
+.custom_nav a:hover {
+    border-bottom: 3px solid;
+}
+
+/* Dropdown hamburger menu css for layout.ejs */
+.dropdown {
+    display: none;
+}
+
+.dropdown-toggle {
+    background-color: #051b37;
+    border: none;
+    padding: 1%;
+}
+
+.dropdown ul li {
+    padding: 5%;
+}
+
+.dropdown ul li a{
+    color:black;
+}
+
+.dropdown ul li a:hover{
+    color: white;
+    background-color: #051b37;
+}
+
+#home_text_1{
+    padding-top: 2%;
+    font-size:25px;
+    text-decoration: underline;
+}
+
+/* Center about page content */
+#about {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Center membership page content */
+#membership{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+/* Center home page content */
+#home{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* set text size in membership page */
+#membership_text{
+    padding-top: 2%;
+    font-size:larger;
+    text-align: center;
+}
+
+/* set text size in home page */
+#home_text{
+    padding-top: 2%;
+    font-size:larger;
+}
+
+#small_group_text{
+    font-size:larger;
+}
+
+/* Format about page article text */
+#about_text {
+    padding-top: 2%;
+    font-size:larger;
+}
+
+/* Contact page style */
+#contact {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#contact .contact-info{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact .form-element{
+    display: flex;
+    flex-direction: row;
+}
+
+#img_home{
+    height: 400px;
+    width: 300px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.underline{
+    text-decoration: underline;
+    display: inline;
+}
+
+.underline_bold{
+    text-decoration: underline;
+    display: inline;
+    font-weight: bold;
+}
+
+.inline{
+    display: inline;
+}
+
+@media screen and (max-width: 1250px){
+    #contact .contact-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #contact .form-element{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+#contact .contact{
+    display: flex;
+    flex-direction: row;
+}
+
+#contact .section{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .section{
+    margin-bottom: 20;
+}
+
+#contact .contact-info .info{
+    margin: 20;
+}
+
+#contact .contact-info .lower{
+    margin: 20;
+}
+
+#contact h1,h3{
+    font-weight: bold;
+}
+
+#contact #location p{
+    margin-left: 5px; 
+}
+
+#contact .contact p {
+    margin: 5; 
+}
+
+#contact .bold {
+    font-weight: bold;
+    margin-right: 5px; 
+
+}
+
+#contact p{
+    font-size: larger;
+    
+}
+
+#contact #location_map {
+    max-width: 600px;
+    text-align: center;
+}
+
+#contact .form-element div{
+    margin-left: 10;
+}
+
+#contact .form-info{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .form-info div{
+    height: 100%;
+}
+
+#contact .form-info #submit input{
+    margin-top: 20px;
+    width:185px;
+    align-items: center;
+    text-align: center;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #051b37;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2%;
+    text-align: center;
+    font-size: 110%;
+}
+
+/* Social Media Buttons CSS */
+.social_button {
+    color: white;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 1%;
+    text-decoration: none;
+}
+
+#youtube_frame {
+   margin-top: 5%;
+   margin-bottom: 5%;
+   text-align: center;
+}
+
+#youtube_vid {
+    width: 900px;
+    height: 600;
+}
+
+.social_button:hover {
+    color: rgba(255,255,255,0.7)
+}
+
+/* About Page Quick Facts CSS */
+#facts {
+    font-size: larger;
+}
+
+#facts li {
+    padding: 1%;
+}
+
+/* Logo used within layout.ejs header */
+#logo {
+    width: 200px;
+}
+
+/* Gosman Image frame used within about.ejs, aligns the picture */
+#gosman_image_frame {
+    text-align: center;
+}
+
+#gosman_image {
+    max-width: 800px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#group_image{
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+#click_image {
+    margin-right: 2%;
+}
+
+#flex_align {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+#flex_align_a {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: 5px dotted ##051b37;
+}
+
+#flex_align_a img {
+    max-width: 800px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#reduce_size {
+    width: 30%;
+}
+
+#center_content {
+    text-align: center;
+}
+
+h1.facilities {
+    align-items: center;
+    margin-top: 5%;
+    padding: 15px;
+}
+
+table.events tr {
+    padding: 15px;
+    height: 100px;
+}
+
+table.events td {
+    padding: 15px;
+}
+
+table.events tr.top {
+    font-weight: bold;
+    font-size:larger;
+    background-color: #051b37;
+    padding: 15px;
+    color: white;
+}
+
+#title_text{
+    color:rgb(211, 232, 249);
+}
+
+#title_text_1{
+    color:rgb(24, 66, 100);
+}
+
+.hero_image {
+    background-image: linear-gradient(rgba(19, 58, 129, 0.5), rgba(15, 23, 33, 0.5)),url("../images/AIbg2.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .img2 {
+    background-image: linear-gradient(rgba(19, 58, 129, 0.5), rgba(12, 27, 27, 0.5)),url("../images/Mental-Health-Designs_Featured-Image-1-669x272.jpg");
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero_text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: rgb(243, 250, 250);
+  }
+
+  section h2 {
+    padding: 10px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+
+  h1.facilities_border {
+    align-items: center;
+    margin-top: 5%;
+    padding: 15px;
+    border-bottom: 5px dotted #051b37;
+  }
+
+/* Responsive Content, hide header options and show hamburger, resize youtube video and gosman image */
+@media screen and (max-width: 1250px) {
+    .custom_header {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        background-color: #051b37;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .custom_nav a {
+        display: none
+    }
+
+    .dropdown {
+        display:block;
+    }
+
+    #youtube_vid {
+        width: 80%;
+        height: 30%;
+    }
+
+    #gosman_image {
+        width: 100%;
+    }
+
+    #group_image{
+        width: 100%;
+    }
+
+    #box_img{
+        width: 80%;
+        height: 30%;
+    }
+
+    #location_map{
+        width: 100%;
+    }
+
+    #img_home{
+        width: 100%;
+    }
+
+}
+
+/* adjust font size of the membership form */
+#mbsp_form {
+    font-size: 19;
+}
+
+section{
+    display: flex;
+}
+
+#mbsp_option{
+    margin-right: 10px;
+    background: lightblue;
+    flex-grow: 1;
+}
+
+/* style of membership boxes */
+.mbsp_container {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+  }
+
+.mbsp_item{
+    font-size: 1rem;
+    line-height: 1;
+    text-align: left;
+    /* width: 3rem; */
+    padding: 1rem 1rem;
+    background: white;
+    color: white;
+    margin: 0.575rem;
+    
+  }
+
+
+#mbsp_box{
+    color: #344d6f;
+}
+
+#mbsp_text_2{
+    color: #457792;
+    padding-top: 2%;
+    font-size:larger;
+}
+
+/* style of the button */
+.btn {
+    background-color: hwb(225 38% 7%);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    margin-top: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    bottom: 10px;
+    right: 10px;
+    float: right;
+  }
+  
+.btn:hover {
+    background-color: RoyalBlue;
+  }
+
+/* style of the sign up content for the button */
+  a.nav-link:link
+  {
+     color: white;
+     text-decoration: none;
+     display: inline;
+  }
+
+  a.nav-link:active
+  {
+     color: white;
+     text-decoration: none;
+  }
+  
+  a.nav-link:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: white;
+   text-decoration: none;
+}
+
+#text_bold{
+    font-weight:bold;
+    display: inline;
+}
+
+/* style of the home page boxes*/
+.home_container {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+  }
+  
+/* style of the home page boxes*/
+.home_item {
+    font-size: 1rem;
+    line-height: 1;
+    text-align: left;
+    /* width: 3rem; */
+    padding: 3rem 1rem;
+    background: hsla(0, 0%, 100%, 0.3);
+    border: 3px solid #0f2244;
+    color: #0b0808;
+    margin: 0.375rem; 
+    flex-grow: 2;
+    font-weight: bolder;
+  }
+
+
+  .home_item_1 {
+    font-size: 1.1rem;
+    line-height: 1;
+    text-align: left;
+    /* width: 3rem; */
+    padding: 3rem 1rem;
+    background: hwb(207 89% 4% / 0.3);
+    color: #010408;
+    margin: 0.375rem; 
+    flex-grow: 2;
+    font-weight: bolder;
+  }
+
+#home_box{
+    color: #021c0b;
+    text-align: left;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 30;
+}
+
+/* Make the boxes responsive to screen */
+@media (max-width: 800px) {
+    .mbsp_container {
+      flex-direction: column;
+    }
+    .home_container {
+        flex-direction: column;
+      }
+  }
+
+.mbsp_item{
+    flex: 50%;
+}
+
+.home_item{
+    flex: 50%;
+}
+
+.home_item_1{
+    flex:50%;
+}
+
+.item-1 {
+    flex: 50%;
+}
+
+.item-1{
+    background:url("../images/SM.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-2{
+    background:url("../images/BW.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-3 {
+    flex: 50%;
+}
+
+.item-3{
+    background:url("../images/WP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-4 {
+    flex: 50%;
+}
+
+.item-4{
+    background:url("../images/AP.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-5 {
+    flex: 50%;
+}
+
+.item-5{
+    background:url("../images/BI.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-6 {
+    flex: 50%;
+}
+
+.item-6{
+    background:url("../images/CB.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-7 {
+    flex: 50%;
+}
+
+.item-7{
+    background:url("../images/CF.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-8 {
+    flex: 50%;
+}
+
+.item-8{
+    background:url("../images/CR.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-9 {
+    flex: 50%;
+}
+
+.item-9{
+    background:url("../images/DA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-10 {
+    flex: 50%;
+}
+
+.item-10{
+    background:url("../images/DS.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-11 {
+    flex: 50%;
+}
+
+.item-11{
+    background:url("../images/ID.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.item-12 {
+    flex: 50%;
+}
+
+.item-12{
+    background:url("../images/IH.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-13 {
+    flex: 50%;
+}
+
+.item-13{
+    background:url("../images/JP.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-14 {
+    flex: 50%;
+}
+
+.item-14{
+    background:url("../images/LV.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-15 {
+    flex: 50%;
+}
+
+.item-15{
+    background:url("../images/MT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.item-16 {
+    flex: 50%;
+}
+
+.item-16{
+    background:url("../images/SJ.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-17 {
+    flex: 50%;
+}
+
+.item-17{
+    background:url("../images/FV.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-18 {
+    flex: 50%;
+}
+
+.item-18{
+    background:url("../images/YG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-19 {
+    flex: 50%;
+}
+
+.item-19{
+    background:url("../images/YS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#groups_color{
+    background-color: white;
+}
+
+#home_form{
+    padding: 5px;
+}
+
+.home_container{
+    background: url(../images/prismh-hero.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+a.sports_icon:link
+{
+   color: white;
+   text-decoration: none;
+}
+
+a.sports_icon:active
+{
+   color: white;
+   text-decoration: none;
+}
+
+a.sports_icon:visited
+{
+   color: white;
+   text-decoration: none;
+}
+
+a.sports_icon:hover
+{
+   color: rgb(14, 27, 75);
+   text-decoration: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .sports_text {
+    color: #1d1c1c;
+    font-size: 20px;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+* {box-sizing: border-box}
+
+a.facilities_link:visited
+{
+   color: rgb(13, 13, 13);
+   text-decoration: none;
+}
+a.facilities_link:hover
+{
+   color: rgb(33, 71, 137);
+   text-decoration: underline;
+   
+}
+
+a.pgroup_link:link
+{
+   color: rgb(13, 13, 13);
+   text-decoration: none;
+}
+a.pgroup_link:visited
+{
+   color: rgb(13, 13, 13);
+   text-decoration: none;
+}
+a.pgroup_link:hover
+{
+   color: rgb(8, 28, 62);
+   text-decoration: underline;
+   
+}
