@@ -1,4 +1,4 @@
-BetterEdu Website
+# BetterEdu Website
 
 How to run the website on your local computer?
 - npm i nodemon -g
