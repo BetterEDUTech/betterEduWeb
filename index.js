@@ -30,7 +30,7 @@ app.get("/resources", homeController.respondWithAbout);
 
 app.get("/contact", homeController.respondWithContact);
 
-app.get("/home", homeController.respondWithHome);
+app.get("/index", homeController.respondWithHome);
 
 app.get("/groups", homeController.respondWithMembership);
 

@@ -7,7 +7,7 @@ exports.respondWithContact = (req, res) => {
 };
 
 exports.respondWithHome = (req, res) => {
-    res.render("home");
+    res.render("index");
 };
 
 exports.respondWithMembership = (req, res) => {
