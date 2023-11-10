@@ -1020,6 +1020,11 @@ a.sports_icon:hover
 img {vertical-align: middle;}
 * {box-sizing: border-box}
 
+a.facilities_link:link
+{
+   color: rgb(13, 13, 13);
+   text-decoration: none;
+}
 a.facilities_link:visited
 {
    color: rgb(13, 13, 13);
@@ -1045,6 +1050,55 @@ a.pgroup_link:visited
 a.pgroup_link:hover
 {
    color: rgb(8, 28, 62);
+   text-decoration: underline;
+   
+}
+
+.flex-container-resource {
+    display: flex;
+    font-size: large;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* max-width: 600px; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(234, 234, 249);
+  }
+
+  .flex-container-resource-1 {
+    display: flex;
+    font-size: large;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    /* max-width: 600px; */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(234, 244, 249);
+  }
+
+#green-text{
+    color: rgb(80, 130, 135);
+}
+
+a.text-red:link
+{
+   color: rgb(159, 74, 74);
+   text-decoration: none;
+}
+a.text-red:visited
+{
+   color: rgb(159, 74, 74);
+   text-decoration: none;
+}
+a.text-red:hover
+{
+   color: rgb(33, 71, 137);
    text-decoration: underline;
    
 }
