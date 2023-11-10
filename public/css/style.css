@@ -328,7 +328,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     padding: 15px;
-    border-bottom: 5px dotted ##051b37;
+    border-bottom: 5px dotted #051b37;
 }
 
 #flex_align_a img {
@@ -883,6 +883,48 @@ a.nav-link:hover
 
 .item-19{
     background:url("../images/YS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-20 {
+    flex: 50%;
+}
+
+.item-20{
+    background:url("../images/CD.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-21 {
+    flex: 50%;
+}
+
+.item-21{
+    background:url("../images/GN.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.item-22 {
+    flex: 50%;
+}
+
+.item-22{
+    background:url("../images/SC.webp");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

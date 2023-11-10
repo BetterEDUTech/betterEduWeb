@@ -90,6 +90,18 @@ exports.respondWithYS = (req, res) => {
     res.render("YS");
 };
 
+exports.respondWithCD = (req, res) => {
+    res.render("CD");
+};
+
+exports.respondWithGN = (req, res) => {
+    res.render("GN");
+};
+
+exports.respondWithSC = (req, res) => {
+    res.render("SC");
+};
+
 exports.postedContactForm = (req, res) => {
     res.render("thanks");
 };

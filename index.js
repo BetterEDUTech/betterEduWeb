@@ -72,6 +72,12 @@ app.get("/YG", homeController.respondWithYG);
 
 app.get("/YS", homeController.respondWithYS);
 
+app.get("/CD", homeController.respondWithCD);
+
+app.get("/GN", homeController.respondWithGN);
+
+app.get("/SC", homeController.respondWithSC);
+
 app.post("/contact", homeController.postedContactForm);
 
 // catch 404 and forward to error handler
