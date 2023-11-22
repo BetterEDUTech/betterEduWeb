@@ -9,8 +9,8 @@ var app = express();
 
 // Set-up port and connection
 const port = 8080
-app.listen(port)
-console.log(`The server is listening on port number: ${port}`)
+app.listen(process.env.PORT || port, () => console.log(`The server is listening on port number: ${port}`))
+
 
 // Set-up static layout (header + footer)
 app.use(layouts)
